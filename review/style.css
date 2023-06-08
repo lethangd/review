@@ -1,0 +1,24 @@
+li {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+img {
+  width: 50px;
+  margin-left: 50px;
+}
+#flex-box {
+  display: flex;
+  justify-content: center;
+}
+#flex-box-el {
+  width: 30%;
+  height: 100px;
+  background-color: antiquewhite;
+  margin: 50px;
+}
+@media screen and (max-width: 565px) {
+  p {
+    color: red;
+  }
+}
